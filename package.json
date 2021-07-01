@@ -1,0 +1,20 @@
+{
+  "name": "jc3mp-jsdoc",
+  "version": "1.0.0",
+  "description": "Converts https://just-cause.mp/docs into JSDocs automatically.",
+  "main": "docs/docs.js",
+  "scripts": {
+    "generate": "node make.js",
+    "test": "node test.js"
+  },
+  "author": "tbhmens",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.29.0",
+    "jsdom": "^16.6.0",
+    "turndown": "^7.1.1",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
